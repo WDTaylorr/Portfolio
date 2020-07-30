@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
+  <link id="theme-style" rel="stylesheet" href="">
+  <title>Taylor Bacon | Web Developer</title>
+</head>
+<body>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>Hi, Im <span id="highlight">Taylor Bacon</span></h1>
+    <h1>Im a front-end web developer</h1>
+    <a href="#about"> <i class="far fa-arrow-alt-circle-down"></i> </a>
+  </section>
+
+  <!-- Nav -->
+  <nav class="navbar">
+    <!-- Nav Links -->
+    <ul id="nav-links">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#about-more">PERSONAL</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <!-- Nav Theme Selector -->
+    <ul id="themes">
+      <div data-mode="dark-mode" id="dark-mode" class="circle dark"></div>
+      <div data-mode="light-mode" id="light-mode" class="circle light"></div>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+
+    <!-- Sections -->
+    <section id="TL">
+      <i class="fas fa-tachometer-alt"></i>
+      <h1>Fast and lag free</h1>
+    </section>
+    <section id="TR">
+      <i class="fas fa-lightbulb"></i>
+      <h1>Simple and elegant</h1>
+    </section>
+    <section id="BL">
+      <div class="images">
+        <i class="fas fa-laptop"></i>
+        <i class="fas fa-mobile-alt"></i>
+      </div>
+      <h1>Responsive design for all devices</h1>
+    </section>
+    <section id="BR">
+      <i class="fas fa-palette"></i>
+      <h1>Customizable themes</h1>
+    </section>
+
+    <!-- Middle Circle -->
+    <div class="big-circle"></div>
+
+  </section>
+
+
+  <!-- Personal -->
+  <section id="about-more">
+    <h1>Who am I?</h1>
+
+    <!-- Description -->
+    <div class="wrapper">
+      <div class="description">
+        <p>I'm a 16 year old Front-End Developer from South East London | GB,
+          with a passion for website design and creation. 
+             <a href="#contact">Lets work together</a>
+        </p>
+      </div>
+
+      <!-- Skill Bars -->
+      <div class="skills">
+        <span>HTML</span>
+        <div class="skill html" data-label="90%"></div>
+        <span>CSS</span>
+        <div class="skill css" data-label="90%"></div>
+        <span>JavaScript</span>
+        <div class="skill javascript" data-label="25%"></div>
+        <span>Photoshop</span>
+        <div class=" skill photoshop" data-label="75%"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <!-- TypeWriter Text -->
+    <h1 id="typewriter">A few of My <span class="txt-type" data-wait="3000" data-words='["Projects","Websites", "Creations"]'></span></h1>
+
+    <!-- Projects -->
+    <div class="projects-wrapper">
+      <!-- C&D Roofing -->
+      <div class="project">
+        <img src="img/CDRoofing.JPG" alt="">
+        <div class="project-description">
+          <h1>C&D Roofing</h1>
+          <p>This project was based around an idea of a website for a fictional roofing company. </p>
+          <div class="project-links">
+            <a target="_blank" href="https://pedantic-pare-3e13de.netlify.app/">VIEW SITE</a>
+            <a target="_blank" href="https://github.com/WDTaylorr/CDRoofing">VIEW CODE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CColours -->
+      <div class="project">
+        <img src="img/ccolours.JPG" alt="">
+        <div class="project-description">
+          <h1>CColours</h1>
+          <p>A colour palette website with 10 unique colour theme combinations </p>
+          <div class="project-links">
+            <a target="_blank" href="https://keen-joliot-a61973.netlify.app/">VIEW SITE</a>
+            <a target="_blank" href="https://github.com/WDTaylorr/CColours">VIEW CODE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conversions -->
+      <div class="project">
+        <img src="img/conversions.JPG" alt="">
+        <div class="project-description">
+          <h1>Conversions</h1>
+          <p>This Project features a conversion system which translates weight and height into numerous different units.</p>
+          <div class="project-links">
+            <a target="_blank" href="https://quizzical-cori-eb5cb0.netlify.app/">VIEW SITE</a>
+            <a target="_blank" href="https://github.com/WDTaylorr/WeightConverter">VIEW CODE</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="top">
+      <h1>Contact</h1>
+      <div id="line"></div>
+    </div>
+
+    <div class="contact-options">
+      <!-- Email -->
+      <div class="option">
+        <i class="far fa-envelope"></i>
+        <h1>taylorrbac@gmail.com</h1>
+      </div>
+      <!-- Twitter -->
+      <div class="option">
+        <a  target="_blank" href="https://twitter.com/WDTaylorr"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://twitter.com/WDTaylorr"><h1>WDTaylorr</h1></a>
+      </div>
+    </div>
+    <a href="#home"><i class="fas fa-angle-double-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

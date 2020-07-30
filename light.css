@@ -1,0 +1,19 @@
+:root{
+  --highlight:#2157d4;
+  --highlightHover:#497efa;
+
+  --secondaryText:#e7e7e7;
+  --mainText:#292929;
+
+  --aboutColor:#c5cad3;
+  --aboutHoverColor:#a6adb4;
+  --borderColor:#ffffff;
+
+  --moreAboutColor:#bdc0c5;
+  --animationGradient:linear-gradient(90deg,#7d93f3 0%, #6795ff 49%, #8fa4ff 80%, #798dff 100%);
+
+
+  --contactColor:#e2e3e5;
+  --home-bg:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(202, 206, 218) 0%, rgb(214, 214, 214) 100%);
+
+}
